@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay:wght@400;700&family=Golos+Text&family=Roboto:wght@400;900&display=swap');
+
+* {
+    font-family: 'Cambay', sans-serif;
+    font-family: 'Golos Text', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+:root {
+    --maincolor: rgb(149, 0, 255);
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: #fff;
+}
+button {
+    background: 0;
+    border: 0;
+    margin: 0;
+    height: 30px;
+    font-size: 12px;
+    border: 1px solid #3f3f3f !important;
+    border-radius: 0 !important;
+}
+
+
+
+
+
+.bannercont {
+    padding: 100px 0 50px 0;
+    background-image: url(/assets/img/istockphoto-1198407865-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannercont > div {
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+#aboutcont {
+    padding: 50px 0;
+}
+div:has(>.aboutnav) {
+    margin-top: 50px;
+}
+.aboutnav h3 {
+    text-align: center;
+}
+.aboutnav div, .bests > div > div {
+    height: 3px !important;
+    width: 36px !important;
+    margin: 0 auto;
+    border-radius: 4px;
+    background-color: black;
+}
+div:has(>.about):nth-of-type(2) {
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+}
+.about {
+    width: fit-content;
+    text-align: center;
+}
+.about > img, .recent > img, .bests > img {
+    width: 100%;
+}
+#itemcont {
+    padding: 50px 0;
+    background-color: #00071c12;
+}
+
+
+#recentcont {
+    max-width: 60%;
+    margin: 0 auto;
+}
+#recentcont > div > div {
+    border: 1px solid rgba(0, 7, 28, 0.2);
+}
+.recent > img {
+    height: 200px;
+}
+.recent > h5 {
+    padding: 6px 10px;
+}
+.recent > div {
+    max-width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid rgba(0, 7, 28, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#bestcont {
+    margin-top: 50px !important;
+    padding-top: 40px;
+    background-color: #00071c12;
+}
+#bestcont > div:first-child h5 {
+    margin-bottom: 30px;
+}
+#bestcont > div:last-child {
+    padding: 20px;
+    background-color: #fff;
+}
+.bests > img {
+    height: 50vh;
+}
+.bests > div > p {
+    font-size: 16px;
+}
+.bests > div {
+    text-align: center;
+}
